@@ -1,0 +1,53 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>user-friendly form</title>
+    <link rel="stylesheet" href="userFriendlyForm.css">
+</head>
+<body>
+    <h1><u>Application Form</u></h1>
+    <form method="get">
+        <fieldset>
+            <legend>Personal Details</legend>
+            <label for="fname">First name:</label>
+            <input type="text" placeholder="first name" id="fname"><br><br>
+            <label for="lname">Last name:</label>
+            <input type="text" placeholder="last name" id="lname"><br><br>
+            <label for="phone">Phone number:</label>
+            <input type="number" placeholder="phone number" id="phone"><br><br>
+        </fieldset><br>
+        <fieldset>
+            <legend>Additional Details</legend>
+            <label for="address">Address:</label>
+            <input type="text" placeholder="address" id="fname"><br><br>
+            <label for="img">Personal image:</label>
+            <input type="file" id="img"><br><br>
+            <label for="age">Age Group:</label>
+            <select id="age">
+                <option>18-24</option>
+                <option>25-34</option>
+                <option>35-44</option>
+                <option>45-54</option>
+                <option>55-64</option>
+                <option>65+</option>
+            </select>
+        </fieldset><br>
+        <fieldset>
+            <legend>Interests</legend>
+            <label for="hobbies">Hobbies:</label><br>
+            <input type="checkbox">Drawing<br>
+            <input type="checkbox">Working Out<br>
+            <input type="checkbox">Painting<br>
+            <input type="checkbox">Playing a sport<br><br>
+            <label for="fseason">Favorite Season:</label><br>
+            <label for="summer">Summer</label>
+            <input type="radio" name="season" id="summer">
+            <label for="autumn">Autumn</label>
+            <input type="radio" name="season" id="autumn">
+            <label for="winter">Winter</label>
+            <input type="radio" name="season" id="winter">            
+        </fieldset><br>
+    </form>
+</body>
+</html>

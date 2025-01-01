@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Q1</title>
+</head>
+<body>
+    <form method="post">
+        <label for="name">Username:</label><br><input type="text" value="username" id="name"><br><br>
+        <label for="password">Password:</label><br><input type="password" id="password"><br><br>
+        <label for="confirmPass">Confirm Password</label><br><input type="password" id="confirmPass"><br><br>
+        <label for="tel">Phone Number:</label><br><input type="tel" id="tel" value="phone number"><br><br>
+        <label for="tel">Email:</label><br><input type="email" id="email"><br><br>
+        <label for="gender">Gender:</label><br>
+        <label for="female">F</label><input type="radio" id="female" name="gender">
+        <label for="male">M</label><input type="radio" id="male" name="gender"><br><br>
+        <label for="dob">Date of Birth:</label><br><input type="date" id="dob"><br><br>
+        <label for="lab">Do You Like this Lab?</label><br>
+        <label for="yes">Yes</label><input type="radio" id="yes" name="labAns" checked>
+        <label for="no">No</label><input type="radio" id="no" name="labAns"><br><br>
+        <label for="yes">Rate our Session:</label><br><input type="range" id="range" name="range" min="1" max="10" value="2"><br><br>
+        <label for="range">Favorite Color:</label><br>
+        <select>
+            <option>Red</option>
+            <option>Green</option>
+            <option>Blue</option>
+        </select><br><br>
+        <label>Feedback:</label><br>
+        <textarea></textarea><br><br>
+        <label>Upload resume</label><br>
+        <input type="file"><br><br>
+        <label>Select your fav language:</label><br>
+        <input type="checkbox">English<br>
+        <input type="checkbox">French<br>
+        <input type="checkbox">German<br><br>
+        <!-- <label>Hidden field</label><br><br> -->
+        <input type="hidden" id="hiddenn" name="hii" value="hiddenValue">
+        <input type="submit" id="submit">
+
+
+
+    </form>
+</body>
+</html>

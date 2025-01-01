@@ -1,0 +1,50 @@
+h1{
+    color: aqua;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-variant: small-caps;
+    text-shadow: 5px 10px rgb(206, 191, 191);
+    font-size: xx-large;
+
+}
+
+h2{
+    color: blue;
+    font-family: cursive;
+    /* oblique vs italic --> BOTH apply italic styling but 'oblique' is titled slight to the RIGHT */
+    font-style: oblique;
+    font-size: smaller;
+}
+
+h3{
+    background-color: aquamarine;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    color: rgb(215, 174, 124)
+}
+
+.par1{
+    font-size: large;
+    color:rgb(6, 209, 209);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.par2{
+    font-size: small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(39, 39, 110);
+}
+
+.par3{
+    color: rgb(116, 98, 98);
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,h2,h3{
+    letter-spacing: 5px;
+}
+
+p{
+    /* DO NOT PUT 'PX' */
+    line-height: 3;
+}

@@ -1,0 +1,16 @@
+input[type=radio]{
+    /* accent-color: red; */
+    accent-color: red;
+}
+input[type=checkbox]{
+    /* accent-color: red; */
+    background-color: black;
+}
+input[type=text]{
+    /* accent-color: red; */
+    color: red;
+}
+input[type=number]{
+    /* accent-color: red; */
+    color:blueviolet;
+}

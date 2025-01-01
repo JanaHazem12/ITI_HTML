@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(47, 47, 47);
+    color: white;
+}
+
+legend{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+h1{
+    text-align: center;
+}
+
+#fname,#lname,#address,#phone,#age{
+    padding: 2px;
+    border: 5px solid white;
+    border-radius: 25px;    
+}
+
+fieldset{
+    border: 3px solid pink;
+}

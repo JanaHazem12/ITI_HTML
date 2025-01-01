@@ -1,0 +1,18 @@
+.changeColor{
+    color: blue;
+}
+/* use . for class */
+
+#submit{
+    font-size: medium;
+}
+/* use # for id */
+
+main section {
+    font-style: italic;
+}
+/* all sections inside main */
+form{
+    border-radius: 25px;
+    margin: auto;
+}

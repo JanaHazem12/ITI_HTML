@@ -1,0 +1,45 @@
+.titles{
+    text-align: center;
+}
+.ull{
+    /* none: remove bullets */
+    list-style-type: none;
+    /* Removes the default margin around the list */
+    margin: 0;
+    /* Removes the default padding inside the list  */
+    padding: 0;
+    /* Hides any content that overflows the boundaries of the containing element. */
+    overflow: hidden;
+}
+
+li{
+    /* positions the list elements horizontally */
+    float:left;
+}
+  
+/* a inside li */
+li a{
+    /* display: block; */
+    /* stretched the nav bar */
+    padding: 205px;
+    background-color: #2371d0;
+    /* text color */
+    color:white;
+}
+
+p{
+    text-align:left;
+    /* pushed the text to the left */
+    margin:1px 800px 1px 1px;
+    /* indenting */
+    text-indent: 20px;
+}
+
+table{
+    width:47%;
+    text-align: center;
+}
+
+thead{
+    color:red;
+}

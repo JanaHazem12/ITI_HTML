@@ -1,0 +1,49 @@
+div {
+    width: 500px;
+    height:500px;
+    justify-self: center;
+    border: 2px dotted gray;
+    border-radius: 25px;
+    /* padding: 50px;
+    margin: 20px; */
+    background-color: white;
+    /* I DON'T UNDERSTAND !! (for centering the div block) */
+    position:fixed;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+  }
+  
+img{
+    width:120px;
+    margin-top: 100px;
+    margin-left: 190px;
+  }
+
+h2{
+    text-align: center;
+    color: cadetblue;
+}
+
+h3{
+    text-align: center;
+    color: rgb(155, 152, 152);
+}
+
+p{
+    font-size: small;
+    margin-right: 90px;
+    margin-left: 90px;
+    text-align: center;
+}
+
+button{
+    /* align-items: center; */
+    margin-right: 200px;
+    margin-left: 200px;
+    color: red;
+}
+
+button:hover{
+    color: purple;
+}

@@ -1,0 +1,107 @@
+.maindiv{
+    /* display: flex; */
+    /* margin-top: 100px; */
+    /* height: 200px; */
+    /* for div blocks to be put next to each other !! */
+    display: inline-flex;
+    width:1800px;
+    /* height:1000px; */
+    overflow:hidden;
+    /* border: 3px solid red; */
+    display: flex;
+    /* justify-content: center; */
+}
+
+.imagee1{
+    width:300px;
+    height: 250px;
+    border: 2px solid grey;
+    padding-bottom: 10px;
+    margin-bottom: 600px;
+    margin-left: 500px;
+}
+
+.imagee2{
+    width:300px;
+    height: 250px;
+    border: 2px solid grey;
+    padding-bottom: 10px;
+    /*  to be in the center!! */
+    margin-left: 100px;
+    /* margin-bottom: 600px; */
+    /* position: relative; */
+    /* justify-self: center; */
+}
+.imagee3{
+    width:300px;
+    height: 250px;
+    border: 2px solid grey;
+    padding-bottom: 10px;
+    /*  to be in the center!! */
+    margin-left: 100px;
+    /* margin-bottom:20px; */
+    /* margin-bottom: 600px; */
+    /* position: relative; */
+    /* justify-self: center; */
+    /* border: 3px solid red; */
+}
+
+#img1{
+    /* display: inline-block; */
+    width:150px;
+    /* height: 150px; */
+    /* margin: auto; */
+    /* margin-right: 400px; */
+    /* margin-bottom: 400px; */
+    margin-left: 40px;
+    /* justify-content: space-between; */
+    /* border: 5px solid black; */
+}
+
+#img2{ 
+    /* display: inline-block; */
+    width:150px; 
+    /* height: 150px; */
+    /* position: fixed; */
+    /* margin-bottom:200px; */
+    margin-left: 40px;
+    /* float:right; */
+}
+
+#img3{
+    /* display: inline-block; */
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse; */
+    width:170px;
+    margin-left: 80px;
+    margin-top:10px;
+    margin-bottom:50px;
+    /* height: 250px; */
+    /* justify-content: space-evenly;
+    border: 5px solid black; */
+}
+
+.fig1{
+    margin: 0px;
+    /* display: flex; */
+    font-size: smaller;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.fig2{
+    text-align: center;
+    /* display: flex; */
+    font-size: smaller;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.fig3{
+    text-align: center;
+    /* display: flex; */
+    font-size: smaller;
+    text-align: center;
+    letter-spacing: 1px;
+}
